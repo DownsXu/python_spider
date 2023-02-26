@@ -1,9 +1,9 @@
 from lxml import etree
 import urllib.request
-import openpyxl
+# import openpyxl
 
-wk = openpyxl.Workbook()
-sheet = wk.create_sheet()  # 创建表格
+# wk = openpyxl.Workbook()
+# sheet = wk.create_sheet()  # 创建表格
 
 url = 'https://s.weibo.com/top/summary'
 

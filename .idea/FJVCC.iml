@@ -6,9 +6,10 @@
       <sourceFolder url="file://$MODULE_DIR$/pacong" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/pacong/urllib_study" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/other" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PyQt" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/CVStudy" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.11 (FJVCC) (2)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.11 (FJVCC)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
