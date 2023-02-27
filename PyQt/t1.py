@@ -1,7 +1,6 @@
 import sys
 import webbrowser
 
-from PyQt5.QtGui import QPixmap
 # while True:
 #     webbrowser.open('www.csdn.net')
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QHBoxLayout, QMainWindow, QMessageBox, \
@@ -32,12 +31,19 @@ class MyWindow(QMainWindow):
         # 将按钮被点击时触发的信号与我们定义的函数（方法）进行绑定
         # 注意：这里没有()，即写函数的名字，而不是名字()
         btn2.clicked.connect(self.showMessageBox)
+        #  按钮三
+        btn3 = QPushButton("高清大图")
+        btn3.setGeometry(200, 200, 100, 30)
+        # btn3.clicked.connect()
+
+
 
         # 创建垂直布局
         layout = QVBoxLayout()
         # 将各button添加到布局中
         layout.addWidget(btn2)
         layout.addWidget(btn1)
+        layout.addWidget(btn3)
 
         mainFrame = QWidget()
         mainFrame.setLayout(layout)
@@ -69,5 +75,4 @@ if __name__ == '__main__':
 
     w = MyWindow()
     w.show()
-
     app.exec()

@@ -2,6 +2,7 @@ from PyQt5 import QtWidgets, QtGui, QtCore
 import cv2
 import sys
 
+
 class VideoPlayer(QtWidgets.QLabel):
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -52,6 +53,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
         # 显示窗口
         self.show()
+
 
 app = QtWidgets.QApplication(sys.argv)
 window = MainWindow()
