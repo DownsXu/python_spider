@@ -13,11 +13,13 @@ class loveWords(QDialog):
         super(loveWords, self).__init__(parent)
         self.ui = loveTalk.Ui_Dialog()
         self.ui.setupUi(self)
+        # 设置标题
         self.setWindowTitle('土味情话')
+        # 设置文字大小
         self.ui.textEdit.setFontPointSize(18)
+        # 设置logo
         self.setWindowIcon(QIcon('D:/FJVCC/img/milk.svg'))
 
-    # 获取接口中json信息
     def getLove(self):
         url = 'https://api.1314.cool/words/api.php'
         headers = {
